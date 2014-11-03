@@ -6,7 +6,7 @@ module RestClient
     # be false for jruby even on OS X.
     #
     # @return [Boolean]
-    def self.mac?
+    def self.mac_mri?
       RUBY_PLATFORM.include?('darwin')
     end
 
